@@ -1,0 +1,29 @@
+how to use git:
+Only One time Activity 
+
+Create a github account and login 
+Create a Git token ( password)
+Install git on your laptop
+Create a remote repo on git hub account 
+Create a folder on your laptop
+Open git bash on folder and execute below commands
+echo "# myPython7am" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aiwithmaha/myPython7am.git
+git push -u origin main
+(user name, password,token)
+
+For every Change 
+git add -A
+git commit -m “comment”
+git push
+
+
+Work directory   :  any change, change may be create, delete, update, edit 
+Staging area       :  git add -A
+Local repo          :  git commit -m “commnet” 
+Remote repo       : git push
+
