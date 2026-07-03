@@ -1,12 +1,15 @@
-how to use git:
-Only One time Activity 
-
+First time Git activities
 Create a github account and login 
 Create a Git token ( password)
 Install git on your laptop
 Create a remote repo on git hub account 
 Create a folder on your laptop
 Open git bash on folder and execute below commands
+
+If needed 
+1.git config --global user.name "Ramesh Walake"
+2.git config --global user.email "walakeramesh75@gmail.com"
+
 echo "# myPython7am" >> README.md
 git init
 git add README.md
@@ -16,14 +19,16 @@ git remote add origin https://github.com/aiwithmaha/myPython7am.git
 git push -u origin main
 (user name, password,token)
 
+git clone https://github.com/walakeramesh/ai-data-engg-ramesh-learnings.git
+
+create vertual environment
+cd ai-data-engg-ramesh-learnings
+uv python list
+uv venv env --python cpython-3.11.1
+env\Scripts\activate
+
 For every Change 
-git add -A
-git commit -m “comment”
-git push
-
-
 Work directory   :  any change, change may be create, delete, update, edit 
 Staging area       :  git add -A
 Local repo          :  git commit -m “commnet” 
 Remote repo       : git push
-
