@@ -23,6 +23,7 @@ git clone https://github.com/walakeramesh/ai-data-engg-ramesh-learnings.git
 
 create vertual environment
 cd ai-data-engg-ramesh-learnings
+pip install uv
 uv python list
 uv venv env --python cpython-3.11.1
 env\Scripts\activate
@@ -32,3 +33,17 @@ Work directory   :  any change, change may be create, delete, update, edit
 Staging area       :  git add -A
 Local repo          :  git commit -m “commnet” 
 Remote repo       : git push
+
+Install requirement models
+uv pip install -r requirements.txt
+
+select kernal -->
+Ctrl + Shift + P, then:
+
+Type Python: Select Interpreter.
+Choose Enter interpreter path.
+Click Find....
+
+Select:
+
+E:\workspace\ai-data-engg-ramesh-learnings\.venv\Scripts\python.exe
