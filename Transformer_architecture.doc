@@ -1,0 +1,77 @@
+                         INPUT SENTENCE
+                   "How      Are      You"
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │   Tokenization  │
+                     └─────────────────┘
+                              │
+                              ▼
+                Tokens: How | Are | You
+                              │
+                              ▼
+              ┌──────────────────────────┐
+              │ Embedding Layer (512 Dim)│
+              └──────────────────────────┘
+                              │
+                  e1          e2          e3
+                              │
+                              ▼
+              ┌──────────────────────────┐
+              │  Positional Encoding     │
+              └──────────────────────────┘
+                              │
+          x1 = e1+p1   x2 = e2+p2   x3 = e3+p3
+                              │
+                              ▼
+        ┌────────────────────────────────────────┐
+        │        Multi-Head Self Attention       │
+        │                                        │
+        │ Each token attends to every other      │
+        │ token to learn contextual meaning      │
+        └────────────────────────────────────────┘
+                              │
+                              ▼
+             Contextual Embeddings
+               c1      c2      c3
+                              │
+                              ▼
+                 Residual Connection (+)
+      x1+c1      x2+c2      x3+c3
+                              │
+                              ▼
+                 Layer Normalization
+                              │
+                              ▼
+             y1        y2        y3
+                              │
+                              ▼
+        ┌──────────────────────────────────────┐
+        │ Position-wise Feed Forward Network   │
+        │                                      │
+        │ Linear (512→2048)                    │
+        │        ↓                             │
+        │ Activation (ReLU / GELU)             │
+        │        ↓                             │
+        │ Linear (2048→512)                    │
+        └──────────────────────────────────────┘
+                              │
+                              ▼
+             f1        f2        f3
+                              │
+                              ▼
+               Residual Connection (+)
+        y1+f1     y2+f2     y3+f3
+                              │
+                              ▼
+                 Layer Normalization
+                              │
+                              ▼
+         Output Encoder Representations
+        y1_norm   y2_norm   y3_norm
+                              │
+          ┌───────────────────┴───────────────────┐
+          │                                       │
+          ▼                                       ▼
+   Next Encoder Layer                     Decoder Stack
+ (if encoder layers >1)             (Final encoder output)
