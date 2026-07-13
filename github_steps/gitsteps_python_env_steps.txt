@@ -47,3 +47,6 @@ Click Find....
 Select:
 
 E:\workspace\ai-data-engg-ramesh-learnings\.venv\Scripts\python.exe
+E:\workspace\ai-data-engg-ramesh-learnings\RagAiAcl\Scripts\python.exe
+
+export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppr
