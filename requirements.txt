@@ -30,3 +30,6 @@ beautifulsoup4
 docx2txt 
 jq 
 unstructured
+pymupdf
+pdfplumber
+tabulate
