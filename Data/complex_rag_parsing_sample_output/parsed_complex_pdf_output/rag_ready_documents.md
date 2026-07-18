@@ -51,7 +51,7 @@ contract_group_id
 Need access-safe retrieval
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -109,7 +109,7 @@ incidents?
 Caption: Ownership map showing how client admins, legal teams, audit teams, document storage, vector storage, and the RAG service interact.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -202,7 +202,7 @@ Parsing difficulty increases when a document combines multiple layouts: paragrap
 parsers preserve structure; weak parsers flatten everything into a noisy text stream.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -276,7 +276,7 @@ Parser note: clause numbering is important. Chunking should not remove or split 
 ask questions using clause numbers.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -337,7 +337,7 @@ For RAG systems, simple tables are often converted into row-wise text chunks suc
 requests must be raised within 7 days; Owner: Customer Support.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -419,7 +419,7 @@ Parser note: table footnotes should remain attached to the table. If the footnot
 become incomplete or misleading.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -463,7 +463,7 @@ Normal PDF text extraction
 Description of the diagram
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -517,7 +517,7 @@ Numbered sequence
 Order must be preserved
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -565,7 +565,7 @@ Checked
 Boolean extraction required
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -629,7 +629,7 @@ retriever may need chunks from the MSA and the Pricing Amendment together.
 Relationship metadata allows retrieval across related documents without mixing unrelated client data.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -680,7 +680,7 @@ Wrong flow: retrieve from all clients and tell the model to ignore unauthorized 
 not be used as the access-control boundary.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -724,7 +724,7 @@ For RAG, chart captions should be indexed. If chart values are critical, extract
 companion table.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -788,7 +788,7 @@ Evaluation should include adversarial questions, unrelated questions, and questi
 related documents.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -843,7 +843,7 @@ Deduplicate using source and hash
 Bad parsing creates bad chunks. Bad chunks create bad retrieval. Bad retrieval creates bad answers.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -902,7 +902,7 @@ quality is the foundation. If extraction is weak, no embedding model or LLM can 
 End of synthetic 15-page parsing test document.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -934,7 +934,7 @@ the table.
 Table 1: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -966,7 +966,7 @@ the table.
 Table 2: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -998,7 +998,7 @@ the table.
 Table 3: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1030,7 +1030,7 @@ parsing may be required.
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1061,7 +1061,7 @@ Parsing challenge: extract chart title, bar values, legend labels, and table val
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1094,7 +1094,7 @@ LLM gateway.
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1127,7 +1127,7 @@ unless OCR is enabled.
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1160,7 +1160,7 @@ scanned image.
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
 OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1633,7 +1633,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_002_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1658,7 +1658,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_007_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1683,7 +1683,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_009_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1708,7 +1708,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_012_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1733,7 +1733,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_016_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1758,7 +1758,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_017_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1783,7 +1783,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_018_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1808,7 +1808,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_019_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1833,7 +1833,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_020_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1858,7 +1858,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_021_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1883,7 +1883,7 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_022_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
 
@@ -1908,6 +1908,6 @@ IMAGE INDEX: 1
 IMAGE PATH: E:\AIWorkspace\ai-data-engg-ramesh-learnings\Data\complex_rag_parsing_sample_output\parsed_complex_pdf_output\extracted_images\page_023_image_1.png
 
 IMAGE OCR TEXT:
-[OCR_SKIPPED_OR_FAILED: tesseract is not installed or it's not in your PATH. See README file for more information.]
+[OCR_SKIPPED_OR_FAILED: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.]
 
 ---
